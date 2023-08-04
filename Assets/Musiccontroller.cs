@@ -18,4 +18,11 @@ public AudioSource audioSource;
             audioSource.Play();
         }
     }
+    public void StopMusic()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+    }
 }
