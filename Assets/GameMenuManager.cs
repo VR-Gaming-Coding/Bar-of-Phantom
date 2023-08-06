@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 public class GameMenuManager : MonoBehaviour
 {
     public Transform head;
-    public float spawnDistance = 2;
+    public float spawnDistance;
     public GameObject menu;
     public InputActionProperty showButton;
 
@@ -28,7 +28,7 @@ public class GameMenuManager : MonoBehaviour
             // make menu appear in front of user
             menu.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
         }
-        menu.transform.LookAt(new Vector3(head.forward.x, menu.transform.position.y, head.forward.z));
-        // menu.transform.forward *= -1; // flip menu to face correct direction
+        menu.transform.LookAt(new Vector3(head.position.x, menu.transform.position.y, head.position.z));
+        menu.transform.forward *= -1; // flip menu to face correct direction
     }
 }
