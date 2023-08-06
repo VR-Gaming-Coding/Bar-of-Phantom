@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LeftHand
   - RightHand
+  - WinDrink
   layers:
   - Default
   - TransparentFX
