@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class g4_move : MonoBehaviour
+public class ghost_random_move : MonoBehaviour
 {
 /*    public List<GameObject> waypoints;*/
     [SerializeField]

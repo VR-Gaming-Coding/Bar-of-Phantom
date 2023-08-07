@@ -10,6 +10,7 @@ TagManager:
   - doorArea
   - rightArea
   - leftArea
+  - door2bar
   layers:
   - Default
   - TransparentFX
