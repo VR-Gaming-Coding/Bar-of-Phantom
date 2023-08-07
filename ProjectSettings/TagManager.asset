@@ -7,6 +7,9 @@ TagManager:
   - LeftHand
   - RightHand
   - WinDrink
+  - doorArea
+  - rightArea
+  - leftArea
   layers:
   - Default
   - TransparentFX

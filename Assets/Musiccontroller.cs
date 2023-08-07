@@ -10,19 +10,19 @@ public AudioSource audioSource;
     {
         audioSource = GetComponent<AudioSource>();
     }
+    private void StopAllAudioSources()
+    {
+        // Find all AudioSources in the scene and stop them
+        AudioSource[] audioSources = FindObjectsOfType<AudioSource>();
 
-    public void PlayMusic()
-    {
-        if (!audioSource.isPlaying)
-        {
-            audioSource.Play();
-        }
-    }
-    public void StopMusic()
-    {
-        if (audioSource.isPlaying)
+        foreach (AudioSource audioSource in audioSources)
         {
             audioSource.Stop();
         }
+    }
+    public void PlayMusic()
+    {
+        StopAllAudioSources();
+        audioSource.Play();
     }
 }
