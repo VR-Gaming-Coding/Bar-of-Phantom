@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HandPresencePhysics : MonoBehaviour
 {
     public Transform target;
     private Rigidbody rb;
+    public InputActionProperty pinchAnimationAction;
 
     // Start is called before the first frame update
     void Start()
