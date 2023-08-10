@@ -25,4 +25,8 @@ public AudioSource audioSource;
         StopAllAudioSources();
         audioSource.Play();
     }
+    public void PlaySound()
+    {
+        audioSource.Play();
+    }
 }
