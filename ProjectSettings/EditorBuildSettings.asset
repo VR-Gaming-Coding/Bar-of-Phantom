@@ -8,22 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/XR Project.unity
     guid: e0dc5acb7f1fa4cfa8a21f12ef5d38be
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/general_level.unity
     guid: 51e188be213619d45bdc0c603576c254
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/0 - intro.unity
     guid: 85733057a71299f48a5c688ecb0e6f29
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/1 - start.unity
     guid: 416ef823d0b94bf4a9ef67a498f71df5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2 - level1.unity
     guid: 726f5452c9c278944b59df14264895fc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/3 - level2.unity
     guid: f8e1a1c370bc5454193638d54926c6ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/4 - level3.unity
     guid: 6305c44c089aff64c9bfe153c084a3fd
   m_configObjects:
